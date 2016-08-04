@@ -1,9 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.6.23)  1 AUG 2016 23:28
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  4 AUG 2016 11:24
 entering extended mode
  restricted \write18 enabled.
- file:line:error style messages enabled.
  %&-line parsing enabled.
-**\input CV.tex
+**\nonstopmode\input CV.tex
 (./CV.tex (/usr/share/texlive/texmf-dist/tex/latex/moderncv/moderncv.cls
 Document Class: moderncv 2013/04/29 v1.5.1 modern curriculum vitae and letter d
 ocument class
@@ -947,13 +946,7 @@ Now handling font encoding PD1 ...
 (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
-Package hyperref Info: Option `unicode' set `true' on input line 4319.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/puenc.def
-File: puenc.def 2012/11/06 v6.83m Hyperref: PDF Unicode definition (HO)
-Now handling font encoding PU ...
-... no UTF-8 mapping file for font encoding PU
-)
+Package hyperref Info: Option `colorlinks' set `true' on input line 4319.
 Package hyperref Info: Hyper figures OFF on input line 4443.
 Package hyperref Info: Link nesting OFF on input line 4448.
 Package hyperref Info: Hyper index ON on input line 4451.
@@ -971,22 +964,26 @@ Package hyperref Info: Hyper figures OFF on input line 6295.
 Package hyperref Info: Link nesting OFF on input line 6300.
 Package hyperref Info: Hyper index ON on input line 6303.
 Package hyperref Info: backreferencing OFF on input line 6310.
-Package hyperref Info: Link coloring OFF on input line 6315.
+Package hyperref Info: Link coloring ON on input line 6313.
 Package hyperref Info: Link coloring with OCG OFF on input line 6320.
 Package hyperref Info: PDF/A mode OFF on input line 6325.
 LaTeX Info: Redefining \ref on input line 6365.
 LaTeX Info: Redefining \pageref on input line 6369.
-\Hy@abspage=\count150
-\c@Item=\count151
-\c@Hfootnote=\count152
+
+
+Package hyperref Warning: Option `pdfpagelabels' is turned off
+(hyperref)                because \thepage is undefined.
+
+\c@Item=\count150
+\c@Hfootnote=\count151
 )
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/hpdftex.def
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
-\Fld@listcount=\count153
-\c@bookmark@seq@number=\count154
+\Fld@listcount=\count152
+\c@bookmark@seq@number=\count153
 
 (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
@@ -995,48 +992,65 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 )
 \Hy@SectionHShift=\skip77
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 35.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 35.
 
+! LaTeX Error: Option clash for package hyperref.
 
-Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\\' on input line 35.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.43 \begin{document}
+                     
+The package hyperref has already been loaded with options:
+  [colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue,anchorcolor=blue
+]
+There has now been an attempt to load it with options
+  [unicode]
+Adding the global options:
+  colorlinks=true,linkcolor=blue,urlcolor=blue,citecolor=blue,anchorcolor=blue,
+unicode
+to your \documentclass declaration may fix this.
+Try typing  <return>  to proceed.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 43.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 43.
+
+Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
+(hyperref)                removing `\\' on input line 43.
 
 (./CV.aux)
 \openout1 = `CV.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 35.
-LaTeX Font Info:    ... okay on input line 35.
-LaTeX Font Info:    Try loading font information for T1+lmr on input line 35.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 43.
  (/usr/share/texmf/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count155
+\scratchcounter=\count154
 \scratchdimen=\dimen193
 \scratchbox=\box53
-\nofMPsegments=\count156
-\nofMParguments=\count157
+\nofMPsegments=\count155
+\nofMParguments=\count156
 \everyMPshowfont=\toks30
-\MPscratchCnt=\count158
+\MPscratchCnt=\count157
 \MPscratchDim=\dimen194
-\MPnumerator=\count159
-\makeMPintoPDFobject=\count160
+\MPnumerator=\count158
+\makeMPintoPDFobject=\count159
 \everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1053,7 +1067,7 @@ G,.JBIG2,.JB2,.eps]
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 35.
+LaTeX Info: Redefining \microtypecontext on input line 43.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1104,51 +1118,51 @@ ABD: EveryShipout initializing macros
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 35.
+Package hyperref Info: Link coloring ON on input line 43.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count161
+\c@section@level=\count160
 )
-LaTeX Info: Redefining \ref on input line 35.
-LaTeX Info: Redefining \pageref on input line 35.
-LaTeX Info: Redefining \nameref on input line 35.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./CV.out) (./CV.out)
 \@outlinefile=\write4
 \openout4 = `CV.out'.
 
 \makecvtitledetailsbox=\box55
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 37.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 45.
  (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 37.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 45.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 37.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 45.
 
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 37.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 45.
 
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 37.
+(Font)              <10> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 37.
+(Font)              <7> on input line 45.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 37.
+(Font)              <5> on input line 45.
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
@@ -1158,15 +1172,15 @@ File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 <QRcodeA.png, id=24, 255.95625pt x 259.97125pt>
 File: QRcodeA.png Graphic file (type png)
  <use QRcodeA.png>
-Package pdftex.def Info: QRcodeA.png used on input line 37.
+Package pdftex.def Info: QRcodeA.png used on input line 45.
 (pdftex.def)             Requested size: 58.0pt x 58.90752pt.
 \makecvtitledetailswidth=\skip78
 \makecvtitlepicturewidth=\skip79
 
-./CV.tex:37: Undefined control sequence.
+! Undefined control sequence.
 \\->\let \reserved@e 
                      \relax \let \reserved@f \relax \@ifstar {\let \reserved...
-l.37 
+l.45 
      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1174,10 +1188,10 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-./CV.tex:37: Argument of \@iiminipage has an extra }.
+! Argument of \@iiminipage has an extra }.
 <inserted text> 
                 \par 
-l.37 
+l.45 
      
 I've run across a `}' that doesn't seem to match anything.
 For example, `\def\a#1{...}' and `\a}' would produce
@@ -1188,103 +1202,136 @@ your `}' was spurious, just type `2' and it will go away.
 
 Runaway argument?
 {b}{\@firstoftwo {\let \reserved@e \vadjust \let \reserved@f \nobreak \ETC.
-./CV.tex:37: Paragraph ended before \@iiminipage was complete.
+! Paragraph ended before \@iiminipage was complete.
 <to be read again> 
                    \par 
-l.37 
+l.45 
      
 I suspect you've forgotten a `}', causing me to apply this
 control sequence to too much text. How can we recover?
 My plan is to forget the whole thing and hope for the best.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 37--37
+Underfull \hbox (badness 10000) in paragraph at lines 45--45
 
  []
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 50.
+(Font)              <10.95> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 50.
+(Font)              <8> on input line 60.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 50.
+(Font)              <6> on input line 60.
 
-Underfull \hbox (badness 10000) in paragraph at lines 50--50
+Underfull \hbox (badness 10000) in paragraph at lines 60--60
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 57--57
+Underfull \hbox (badness 10000) in paragraph at lines 67--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 63--63
+Underfull \hbox (badness 10000) in paragraph at lines 73--73
 
  []
 
 <Comp3107.png, id=25, 551.1792pt x 105.5142pt>
 File: Comp3107.png Graphic file (type png)
  <use Comp3107.png>
-Package pdftex.def Info: Comp3107.png used on input line 69.
+Package pdftex.def Info: Comp3107.png used on input line 79.
 (pdftex.def)             Requested size: 526.37598pt x 81.75323pt.
 
-Overfull \hbox (14.22635pt too wide) in paragraph at lines 69--69
+Overfull \hbox (14.22635pt too wide) in paragraph at lines 79--79
  [][] 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 91--91
+Underfull \hbox (badness 10000) in paragraph at lines 103--103
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 92--92
+Underfull \hbox (badness 10000) in paragraph at lines 104--104
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 99--99
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
-./CV.tex:101: Too many }'s.
-l.101 }
+! Too many }'s.
+l.117 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 110.
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   t
+l.123   sur DataScience.net (place : 24 sur 830).}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   t
+l.123   sur DataScience.net (place : 24 sur 830).}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+! Illegal parameter number in definition of \Hy@tempa.
+<to be read again> 
+                   t
+l.123   sur DataScience.net (place : 24 sur 830).}
+                                                  
+You meant to type ## instead of #, right?
+Or maybe a } was forgotten somewhere earlier, and things
+are all screwed up? I'm going to assume that you meant ##.
+
+
+Overfull \hbox (0.88268pt too wide) in paragraph at lines 123--123
+[]\T1/lmr/m/n/10.95 (-20) Concours machine learning Cdiscount 2015 ``[][][]$[]$
+[][][]''
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Comp3107.png> <./QRcodeA
 .png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 110.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
  (./CV.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 110.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 110.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `CV.out' has not changed.
-(rerunfilecheck)             Checksum: D9E3A3D2C284535B5B55872CFBB48CEF;574.
+(rerunfilecheck)             Checksum: 0D2464FE29368B6DAF48580119EBC1F0;230.
  ) 
 Here is how much of TeX's memory you used:
- 25072 strings out of 493304
- 444432 string characters out of 6139871
- 531560 words of memory out of 5000000
- 28064 multiletter control sequences out of 15000+600000
- 68678 words of font info for 69 fonts, out of 8000000 for 9000
+ 21894 strings out of 493304
+ 403341 string characters out of 6139871
+ 506414 words of memory out of 5000000
+ 24886 multiletter control sequences out of 15000+600000
+ 63125 words of font info for 70 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 70i,13n,59p,10386b,339s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 70i,13n,59p,10398b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (1 page, 312741 bytes).
+xmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+ro17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pf
+b>
+Output written on CV.pdf (1 page, 299349 bytes).
 PDF statistics:
- 77 PDF objects out of 1000 (max. 8388607)
- 60 compressed objects within 1 object stream
+ 74 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 21565 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 17981 words of extra memory for PDF output out of 20736 (max. 10000000)
 

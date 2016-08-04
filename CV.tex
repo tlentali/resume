@@ -4,7 +4,7 @@
 
 \documentclass[11pt,a4paper]{moderncv}
 
-
+\hyphenpenalty 10000 %empeche la coupure des mots%
 
 
 \moderncvtheme[blue]{classic}                
@@ -15,6 +15,14 @@
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage[colorlinks = true,
+            linkcolor = blue,
+            urlcolor  = blue,
+            citecolor = blue,
+            anchorcolor = blue]{hyperref}
+
+\newcommand{\MYhref}[3][blue]{\href{#2}{\color{#1}{#3}}}%
 
 
 % Largeur de la colonne pour les dates
@@ -25,7 +33,7 @@
 
 \firstname{Thomas}
 \familyname{Lentali}
-\title{Data Scientist\\Recherche Opérationnelle}              
+\title{Data Scientist,\\Recherche Opérationnelle}              
 \email{thomas.lentali@gmail.com}                      
 \phone{\textbf{06 16 24 58 68}} 
 \extrainfo{05/12/1988 (27 ans) -- Permis B}
@@ -38,22 +46,24 @@
 \vspace*{-7mm}
 \section{Expériences professionnelles / stages}
 
-\cventry{\textcolor{color2bis}{2016\\Mars-Sept.\\(6 mois)}}{Stage fin de Master}{Cdiscount}{Bordeaux}{France}{Machine learning et analyse statistique dans le service responsable de la pertinence du moteur de recherche du site Cdiscount.\\ 
-\textit{\underline{Ciblage marketing}:} analyse comportementale et amélioration
-de la pertinence moteur (test AB), personnalisation client de la page d'acceuil (classification)\\
-\textit{\underline{Valorisation de données géographique}:} prédiction des achats
+\cventry{\textcolor{color2bis}{2016\\Mars-Sept.\\(6 mois)}}{Stage fin de Master}{Cdiscount}{Bordeaux}{France}{Machine learning et analyse statistique dans le service responsable de la pertinence du moteur de recherche du site Cdiscount.
+\begin{itemize}
+\item \textbf{Ciblage marketing} : analyse comportementale et amélioration
+de la pertinence moteur (tests AB), personnalisation client de la page d'acceuil (classification).
+\item \textbf{Valorisation de données géographique} : prédiction des achats
 par zone géographique (machine learning), analyse statistique: croisement
-données INSEE/Cdiscount, création d'un outil de géocoding (géomatique)\\
-\textit{\underline{Projet concours Innovation Interne}:} proposition d'un plan
-opérationnel de mise en place d'un nouveau service aux clients: système d'anticipation de stockage de produits en points relais pour développer la livraison express.\\
-\underline{Savoir-Être} : Esprit d'équipe, organisation (agile), rigueur.
+données INSEE/Cdiscount, création d'un outil de géocoding (géomatique).
+\item \textbf{Projet concours Innovation Interne} : proposition d'un plan
+  opérationnel de mise en place d'un nouveau service aux clients: système d'anticipation de stockage de produits en points relais pour développer la livraison express.
+\end{itemize}
+\underline{Savoir-Être} : Esprit d'équipe, organisation (Agile), rigueur.
 \newline{}}
 
 \cventry{\textcolor{color2bis}{2016\\Janvier-Mars\\(3 mois)}}{Projet
   professionnel}{Abracadacook}{Bordeaux}{France}{Développement d'outils de
   détection d'information dans un texte (détection d'anomalie) et
   classification.\\
-\underline{Savoir-Être} : écoute, autonomie, capacité d'adaptation.
+\underline{Savoir-Être} : Écoute, autonomie, capacité d'adaptation.
 \newline{}}
 
 
@@ -72,7 +82,7 @@ opérationnel de mise en place d'un nouveau service aux clients: système d'anti
 %\cvitem{}{\includegraphics[scale=0.81]{test.png}}
 % \cvitem{\textcolor{color2bis}{OS}}{GNU/Linux, Mac OSX, Windows}
 
-\cvitem{\textcolor{color2bis}{Langue}}{Anglais: capacité professionnelle complète}
+\cvitem{\textcolor{color2bis}{Langue}}{Anglais : capacité professionnelle complète}
 %\cventry{year--year\\\includegraphics[width=\hintscolumnwidth]{test.png}}{Degree}{Institution}{City}{\textit{Grade}}{Description}
 
 %\cvitem{\textcolor{color2bis}{Environements}}{\includegraphics[scale=1]{test.png}}
@@ -85,25 +95,31 @@ opérationnel de mise en place d'un nouveau service aux clients: système d'anti
 
 \section{Formations}
 \cventry{\textcolor{color2bis}{2014 -- 2016\\Septembre}}{Master Ingénierie Mathématiques (MIMSE)}{Université de Bordeaux}{}{}{
-\underline{Spécialité Recherche Opérationnelle et Aide à la Décision}: 
+\begin{itemize}
+\item Spécialité Recherche Opérationnelle et Aide à la Décision: 
 Optimisation mathématique, machine learning, théorie des graphes, C++ et Python
 approfondis, statistiques, analyse de données, base de données, data mining.\\
+\end{itemize}
 }
 \cventry{\textcolor{color2bis}{2016\\Février-Avril}}{Certification Machine Learning}{Coursera}{}{}{MOOC Andrew Ng (note maximale 100\%)\newline{}}
 
-\cventry{\textcolor{color2bis}{2008 -- 2012}}{Licence Mathématiques et Licence MASS}{Université de Toulon}{}{}{\underline{Mathématiques
-  Pures incluant}: algèbre (linéaire, théorie des groupes, anneaux, corps),
-  analyse (réel, complexe, théorie de la mesure, calcul différentiel), géométrie
+\cventry{\textcolor{color2bis}{2008 -- 2012}}{Licence Mathématiques et Licence MASS}{Université de Toulon}{}{}{
+\begin{itemize}
+\item Mathématiques
+  Pures incluant: algèbre (linéaire, théorie des groupes, anneaux, corps),
+  analyse (réelle, complexe, théorie de la mesure, calcul différentiel), géométrie
   (topologie), programmation.
-\underline{Mathématiques Appliquées aux Sciences Économiques et Sociales incluant}: statistiques, probabilités, économétrie, économie (micro/macro), sociologie, théorie de la décision.
- \newline{}}
+\item Mathématiques Appliquées aux Sciences Économiques et Sociales incluant:\\ statistiques, probabilités, économétrie, économie (micro/macro), sociologie, théorie de la décision.
+ \newline{}
 % \cventry{\textcolor{color2bis}{2005 -- 2006}}{Baccalauréat}{Lycée Dumont d'Urville - Var}{}{}{Série Scientifique, spécialité Mathématiques. %\newline{}
+\end{itemize}
+}
 }
 
 \section{Centres d’intérêt}
-\cvitem{\textcolor{color2bis}{Sciences}}{Participation au concours machine
+\cvitem{\textcolor{color2bis}{Sciences}}{Concours machine
   learning Cdiscount
-  2015 \textit{'Catégorisation de produits pour le e-commerce'}
+  2015 ``\MYhref{https://www.datascience.net/fr/challenge/20/details#tab_ranking}{\underline{Catégorisation de produits pour le e-commerce}}''
   sur DataScience.net (place : 24 sur 830).}
 \cvitem{\textcolor{color2bis}{Intérêts}}{Voyages et découverte des cultures et patrimoines, aïkido.}
 
