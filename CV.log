@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  4 AUG 2016 11:27
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  4 AUG 2016 11:46
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1258,12 +1258,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--104
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 116--116
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
 
  []
 
 ! Too many }'s.
-l.117 }
+l.116 }
        
 You've closed more groups than you opened.
 Such booboos are generally harmless, so keep going.
@@ -1271,7 +1271,7 @@ Such booboos are generally harmless, so keep going.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    t
-l.123   sur DataScience.net (place : 24 sur 830).}
+l.122   sur DataScience.net (place : 24 sur 830).}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1280,7 +1280,7 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    t
-l.123   sur DataScience.net (place : 24 sur 830).}
+l.122   sur DataScience.net (place : 24 sur 830).}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
@@ -1289,30 +1289,30 @@ are all screwed up? I'm going to assume that you meant ##.
 ! Illegal parameter number in definition of \Hy@tempa.
 <to be read again> 
                    t
-l.123   sur DataScience.net (place : 24 sur 830).}
+l.122   sur DataScience.net (place : 24 sur 830).}
                                                   
 You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 125.
 [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Comp3107.png> <./QRcodeA
 .png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 125.
  (./CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 126.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 125.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 125.
 Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 0D2464FE29368B6DAF48580119EBC1F0;230.
  ) 
 Here is how much of TeX's memory you used:
- 21901 strings out of 493304
- 403441 string characters out of 6139871
+ 21899 strings out of 493304
+ 403421 string characters out of 6139871
  506414 words of memory out of 5000000
  24888 multiletter control sequences out of 15000+600000
- 67648 words of font info for 73 fonts, out of 8000000 for 9000
+ 67565 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,13n,59p,10398b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
@@ -1322,7 +1322,7 @@ c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
 xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
 ro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/share/texlive
 /texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
-Output written on CV.pdf (1 page, 314419 bytes).
+Output written on CV.pdf (1 page, 314422 bytes).
 PDF statistics:
  78 PDF objects out of 1000 (max. 8388607)
  61 compressed objects within 1 object stream
