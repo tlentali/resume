@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  4 AUG 2016 11:24
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.3.22)  4 AUG 2016 11:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1295,12 +1295,6 @@ You meant to type ## instead of #, right?
 Or maybe a } was forgotten somewhere earlier, and things
 are all screwed up? I'm going to assume that you meant ##.
 
-
-Overfull \hbox (0.88268pt too wide) in paragraph at lines 123--123
-[]\T1/lmr/m/n/10.95 (-20) Concours machine learning Cdiscount 2015 ``[][][]$[]$
-[][][]''
- []
-
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 [1
 
@@ -1314,24 +1308,24 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: 0D2464FE29368B6DAF48580119EBC1F0;230.
  ) 
 Here is how much of TeX's memory you used:
- 21894 strings out of 493304
- 403341 string characters out of 6139871
+ 21901 strings out of 493304
+ 403441 string characters out of 6139871
  506414 words of memory out of 5000000
- 24886 multiletter control sequences out of 15000+600000
- 63125 words of font info for 70 fonts, out of 8000000 for 9000
+ 24888 multiletter control sequences out of 15000+600000
+ 67648 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  70i,13n,59p,10398b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}</usr/share/texmf/fonts/type1/
 public/lm/lmbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbxo10.pfb></usr/
 share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/publi
 c/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr17.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmro10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-ro17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/marvosym/marvosym.pf
-b>
-Output written on CV.pdf (1 page, 299349 bytes).
+xmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+ro10.pfb></usr/share/texmf/fonts/type1/public/lm/lmro17.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb>
+Output written on CV.pdf (1 page, 314419 bytes).
 PDF statistics:
- 74 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
+ 78 PDF objects out of 1000 (max. 8388607)
+ 61 compressed objects within 1 object stream
  6 named destinations out of 1000 (max. 500000)
- 17981 words of extra memory for PDF output out of 20736 (max. 10000000)
+ 20029 words of extra memory for PDF output out of 20736 (max. 10000000)
 
