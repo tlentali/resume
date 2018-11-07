@@ -1,0 +1,47 @@
+THOMAS LENTALI
+DATA SCIENTIST
+
+06 16 24 58 68
+thomas.lentali@gmail.com
+
+EXPERIENCE
+ * CDISCOUNT   
+   - Advisor datascientist
+     [2018-10, now[
+     My mission consist to bring data driven solutions in Cdiscount intern services in a short period of time :
+     Currently using data mining, clustering, classification algorithms
+
+   - Search engine datascientist
+     [2016-10, 2018-09]
+     Development and deployment in production of machine learning algorithms and data analysis applied to (at least):
+     - Search engine relevance
+     - Recommendation engine
+     - Algorithms evaluation (A/B testing)
+     - Focus on website's KPI improvment
+     - Python development (Scikit-learn, Numpy, Scipy, Pandas, Luigi etc)
+     - Hadoop Hive & SQL Databases
+
+   - Datascientist intern
+     [2016-03, 2016-09]
+     Machine learning implementation and statistical analysis used to improv the relevence of the Cdiscount.com search engine :
+     - Marketing targeting : client behavioral analysis and proof of concept personnalisation client (classification and clustering)
+     - Geographical data : purchase forecasting by geographic zone
+     - Data analysis : using INSEE databases, implementation and developement of geocoding tool
+     - Intern innovation contest : forcasting system of product storage allowing express delivery
+
+ * CARTEGIE
+   - Datascientist intern
+     Sourcing, implementation and development of machine learning tools :
+     Mainly using classification multiclass with Python, Scala, Apache Spark 
+
+EDUCATION
+ * MSC APPLIED MATHEMATICS
+     machine learning, data analysis, optimization, operation research
+ * BSC APPLIED MATHEMATICS
+     statistics, probability, decision theory
+ * BSC PUR MATEMATICS
+     algebra, analysis, geometry, graph theory
+
+SKILLS
+ - human speaking : english, french
+ - machine speaking : python, sql/hive, c/c++, bash, git, scala
