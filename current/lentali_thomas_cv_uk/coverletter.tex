@@ -1,0 +1,143 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for Cover Letter
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Authors:
+% Claud D. Park <posquit0.bj@gmail.com>
+% Lars Richter <mail@ayeks.de>
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+
+
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt, a4paper]{awesome-cv}
+
+% Configure page margins with geometry
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+\colorlet{awesome}{awesome-red}
+% Uncomment if you would like to specify your own color
+% \definecolor{awesome}{HTML}{CA63A8}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+\photo[circle,noedge,left]{./examples/profile}
+\name{Thomas}{Lentali}
+\position{Data Scientist{\enskip\cdotp\enskip}Anti-money laundering Expert}
+\address{40 Allées de Tourny, 33000 Bordeaux, France}
+
+\mobile{(+33)6 16 24 58 68}
+\email{thomas.lentali@gmail.com}
+\linkedin{thomas-lentali}
+\stackoverflow{8479387}{tlentali}
+\kaggle{tlentali}
+\github{tlentali}
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \twitter{@twit}
+% \skype{skype-id}
+% \reddit{reddit-id}
+% \medium{madium-id}
+% \googlescholar{googlescholar-id}{name-to-display}
+%% \firstname and \lastname will be used
+% \googlescholar{googlescholar-id}{}
+% \extrainfo{extra informations}
+
+%-------------------------------------------------------------------------------
+%	LETTER INFORMATION
+%	All of the below lines must be filled out
+%-------------------------------------------------------------------------------
+% The company being applied to
+\recipient
+  {Financial Crime Analytics}    
+  {Deloitte\\Financial Advisory\\Amsterdam The Edge\\Master (WO)}
+% The date on the letter, default is the date of compilation
+\letterdate{\today}
+% The title of the letter
+\lettertitle{Job Application for Deloitte Consultant Financial Crime Analytics role in Amsterdam}
+% How the letter is opened
+\letteropening{Dear Financial Crime Analytics team,}
+% How the letter is closed
+\letterclosing{Sincerely,}
+% Any enclosures with the letter
+\letterenclosure[Attached]{Curriculum Vitae}
+
+
+%-------------------------------------------------------------------------------
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader[R]
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+\makecvfooter
+  {\today}
+  {Thomas Lentali~~~·~~~Cover Letter}
+  {}
+
+% Print the title with above letter informations
+\makelettertitle
+
+%-------------------------------------------------------------------------------
+%	LETTER CONTENT
+%-------------------------------------------------------------------------------
+\begin{cvletter}
+
+I am writing to express my strong interest in the Deloitte Consultant Financial Crime Analytics role in Amsterdam.  \\
+I am a highly motivated and results-driven professional with extensive experience in financial crime analytics and a passion for using data to solve complex problems.\\
+
+In my current role as a Data Scientist, I have been responsible for developing and implementing financial crime detection solutions for Betclic, one of the main sport betting and gambling company in France.\\ 
+I have honed my skills in machine learning, risk assessment, and project management, and have a proven track record of delivering projects in production on time.\\
+To dive even deeper in the understanding of financial crime and especially money-laundering, I obtained the CAMS certificate from ACAMS. \\
+I am confident that my experience and expertise make me a strong fit for the Deloitte Consultant Financial Crime Analytics role.\\
+
+At Deloitte, I am particularly drawn to the firm's commitment to using technology and data to help clients navigate the rapidly evolving financial crime landscape. \\
+I am eager to join a team of professionals who share my passion for using data to drive business outcomes.\\
+Furthermore, I plan to move in Amsterdam as soon as possible.
+
+I am excited about the opportunity to bring my skills and experience to Deloitte and to contribute to the firm's ongoing success. \\
+I have attached my resume for your review and I look forward to the opportunity to discuss my candidacy further.\\
+
+Thank you for considering my application.
+
+\end{cvletter}
+
+
+%-------------------------------------------------------------------------------
+% Print the signature and enclosures with above letter informations
+\makeletterclosing
+
+\end{document}
