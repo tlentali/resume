@@ -1,4 +1,4 @@
-# Personal Resume Repository
+# Resume
 
 Welcome to my repository hosting my resumé written in LaTeX. This repository contains my CV in several languages, generated using the Overleaf XeLaTeX engine version 2022.
 
