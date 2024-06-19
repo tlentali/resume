@@ -13,6 +13,7 @@
 % CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
 %
 
+
 %-------------------------------------------------------------------------------
 % CONFIGURATIONS
 %-------------------------------------------------------------------------------
@@ -45,6 +46,7 @@
 % If you would like to change the social information separator from a pipe (|) to something else
 \renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
 
+
 %-------------------------------------------------------------------------------
 %	PERSONAL INFORMATION
 %	Comment any of the lines below if they are not required
@@ -55,7 +57,7 @@
 \position{Data Scientist}
 \address{40 Allées de Tourny, 33000 Bordeaux, France}
 
-\mobile{06 16 24 58 68}
+\mobile{(+33)6 16 24 58 68)}
 \email{thomas.lentali@gmail.com}
 \linkedin{thomas-lentali}
 \stackoverflow{8479387}{tlentali}
@@ -73,6 +75,8 @@
 % \googlescholar{googlescholar-id}{}
 % \extrainfo{extra informations}
 
+
+
 %-------------------------------------------------------------------------------
 \begin{document}
 
@@ -82,14 +86,23 @@
 
 % Print the footer with 3 arguments(<left>, <center>, <right>)
 % Leave any of these blank if they are not needed
+\makecvfooter
+  {}
+  {Thomas Lentali}
+  {\thepage}
 
 %-------------------------------------------------------------------------------
 %	CV/RESUME CONTENT
 %	Each section is imported separately, open each file in turn to modify content
 %-------------------------------------------------------------------------------
-\input{resume/summary/summary_fr.tex}
-\input{resume/experience/experience_fr.tex}
-\input{resume/education/education_fr.tex}
+\input{section/summary/summary_eng.tex}
+\input{section/skill/skill_eng.tex}
+\input{section/experience/experience_eng.tex}
+\newpage
+\input{section/education/education_eng.tex}
+\input{section/certification/certification_eng.tex}
+\input{section/award/award_eng.tex}
+\input{section/recommendation/recommendation_filled_eng.tex}
 
 %-------------------------------------------------------------------------------
 \end{document}
